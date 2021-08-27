@@ -8,6 +8,7 @@ docker-compose up -d --build
 <br>
 
 ### Executar o Producer:
+Executar o seguinte comando no diretório `src/ProducerKafka`:
 ```
 dotnet run "localhost:9092" "topic-test" "Mensagem 01" "Mensagem 02"
 ```
@@ -15,6 +16,7 @@ dotnet run "localhost:9092" "topic-test" "Mensagem 01" "Mensagem 02"
 <br>
 
 ### Executar o Consumer:
+Executar o seguinte comando no diretório `src/ConsumerKafka`:
 ```
 dotnet run "localhost:9092" "topic-test"
 ```
