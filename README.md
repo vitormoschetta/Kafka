@@ -1,4 +1,4 @@
-# Instalação do Apache Kafka em Docker Container
+# Instalação do Apache Kafka via Docker Container
 
 ### Executar os containers:
 ```
@@ -24,7 +24,7 @@ dotnet run "localhost:9092" "topic-test"
 <br>
 
 
-# Instalação Binários no Host
+# Instalação do Apache Kafka via Binários no Host
 
 ### Baixar o Apache Kafka:
 
